@@ -5,7 +5,7 @@ using namespace std;
 
 int m,n,a,x,y;
 bool b[102][102], v[102][102];
-stack < pair < int,int > > s;
+stack < pair <int,int> > s;
 
 void f(int i, int j) {
 	if (b[i][j] && !v[i][j]) {
